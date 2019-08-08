@@ -1,5 +1,5 @@
-Izzy's Github Pages!
 # Welcome to GitHub Pages
+This is the homepage for Isidor Kaplan!
 
 You can use the [editor on GitHub](https://github.com/isidorjkaplan/isidorjkaplan.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
