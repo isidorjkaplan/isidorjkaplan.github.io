@@ -3,5 +3,16 @@ layout: home
 title: Homepage
 ---
 
-Here is some nice content!
-Remember to like and subscribe for more!
+## About Me
+
+I am a second-year engineering student at the University of Toronto with a particular interest in machine learning, programming and software-design. I also like skiing, boating and music.
+
+## Work
+
+After completing first year I took a summer internship with the [iQua Research Group](https://iqua.ece.toronto.edu) were I helped design and apply deep reinforcement learning algorithms under the supervision of Prof. Baochun Li within the context of networking problems, such as congestion control, edge computing and network-adaptive coding.
+
+## Projects
+
+* **High School**: Implemented a large 300+ class gaming plugin in Java during high school as a CS project which I then sold online at a substantial profit
+* **Engineering Strategies and Practices**: Reached out to industry connections to bring machine learning project for METSCO Power Inc to Engineering Strategies and Practices course; led team on design project. First student (10+ years) to take initiate and bring their own project to the course.
+* **First year programming course**: Implemented an Alpha-GO inspired Machine Learning algorithm for board game Reversi. Received certificate for program ranking within top 10 in the class of 300+ students.
