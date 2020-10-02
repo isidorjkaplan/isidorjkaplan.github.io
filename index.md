@@ -18,7 +18,6 @@ After completing first year I took a summer internship with the [iQua Research G
 * **First year programming course**: Implemented an Alpha-GO inspired Machine Learning algorithm for board game Reversi. Received certificate for program ranking within top 10 in the class of 300+ students.
 
 ## Awards 
-* **Recipient of the University of Toronto Scholars Award in 2020-21 academic year**
-* **Recipient of the FASA (Faculty of Applies Science) First Year Summer Fellowship**
-* **Dean’s List for all academic terms to date**
-* **Received ‘Board Proficiency Award’ for highest grade 12 marks in the school.**
+* Recipient of the **University of Toronto Scholars Award** in 2020-21 academic year
+* Recipient of the FASA (Faculty of Applies Science) **First Year Summer Fellowship**
+* **Dean’s List** for all academic terms to date
