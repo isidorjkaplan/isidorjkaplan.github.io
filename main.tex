@@ -18,6 +18,7 @@
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
 \usepackage[english]{babel}
+\usepackage{fontawesome}
 \usepackage{tabularx}
 \input{glyphtounicode}
 
@@ -112,7 +113,65 @@
     \href{https://isidorkaplan.ca/transcript.pdf}{\underline{transcript.pdf}}
 \end{center}
 
-%-----------EDUCATION-----------
+%-----------About me-----------
+\section{About Me}
+\small{Computer engineer specializing in FPGA design, low-latency trading systems, and high-performance C++ software. Currently an FPGA Engineer at Headlands Technologies, with prior experience at Hudson River Trading and Intel developing production-grade hardware and software. Experienced in full-lifecycle FPGA and embedded systems design, with award-winning academic performance and top recognition in Computer Engineering at the University of Toronto.}
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+% Headlands
+\resumeSubheading
+  {Headlands Technologies}{June 2024 -- Present}{FPGA Engineer}{Chicago, IL}
+\resumeItemListStart
+   \resumeItem{Engineered low-latency trading infrastructure, improving stability, scalability, and system performance}
+   \resumeItem{Full-lifecycle FPGA design: specification, implementation, testing, verification, and deployment}
+   \resumeItem{Developed high-performance software drivers and testing/verification frameworks for trading applications}
+\resumeItemListEnd
+
+    % HRT 
+    \resumeSubheading
+      {Hudson River Trading}{June 2023 -- August 2023}{Software Engineer (Intern)}{New York, NY}
+      \resumeItemListStart
+        \resumeItem{Design modern C++ multi-threaded, high-performance, networked, timing-accurate market-simulation tools }
+	\resumeItem{Extend proprietary C++ exception-handling framework with improved stack-tracing capabilities \href{https://www.hudsonrivertrading.com/hrtbeat/intern-spotlight-2023-software-engineering/}{\footnotesize \faChain}\;}
+      \resumeItemListEnd
+
+    % INTEL
+    \resumeSubheading
+      {Intel}{May 2022 -- May 2023}{FPGA Engineer (Intern)}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Optimized next-generation FPGA routing architecture improving simulations results in VPR and Quartus }
+        \resumeItem{Developed high-performance C++ graph tools to operate on FPGA routing architecture representations }
+        \resumeItem{Developed Python tool for automated complex data visualization, reducing analysis time for experiments }
+    \resumeItemListEnd
+    
+    % Teaching Assistant
+    \resumeSubheading
+      {University Of Toronto}{Sept 2021 -- April 2024}{Teaching Assistant}{Toronto, ON}
+      \resumeItemListStart
+         \resumeItem{TA for \emph{Operating Systems}, \emph{Computer Organization}, \emph{Programming Fundamentals}, and \emph{Software Comm \& Design}, covering concurrency, memory, CPU design, Verilog, embedded programming, C++, and data structures.}
+    \resumeItemListEnd
+    
+    % Rocscience
+    \resumeSubheading
+      {Rocscience}{May 2021 -- August 2021}{Software Engineer (Intern)}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Redesigned CPillar, a \$995/license C++ geological analysis software, enabling the first major update in years  }
+        %\resumeItem{Prototyped unsupervised ML techniques to extract material types from imagery for Rocfall2 and Rocfall3}
+    \resumeItemListEnd
+    
+    % Academic Researcher
+    \resumeSubheading
+      {University Of Toronto -- iQua Research Group}{May 2020 -- August 2020}{ML/AI Researcher (Intern)}{Toronto, ON}
+      \resumeItemListStart
+        \resumeItem{Developed advanced reinforcement learning models using PyTorch, applied to congestion control, edge computing, and network-adaptive coding, resulting in the publication of two conference research papers }
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  
+  %-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
@@ -126,89 +185,30 @@
         %\resumeItem{Selected for prestigious First-Year Summer \emph{Fellowship} (2020)}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
-
-%-----------EXPERIENCE-----------
-\section{Experience}
-  \resumeSubHeadingListStart
-    % Headlands
-    \resumeSubheading
-     {FPGA Engineer}{June 2024 - Present}
-     {Headlands Technologies}{Chicago, IL}
-    \resumeItemListStart
-       \resumeItem{Engineer low-latency trading infrastructure, improving stability, scalability, and performance}
-     \resumeItemListEnd
-
-    % HRT 
-    \resumeSubheading
-      {Software Engineering Intern}{June 2023 -- August 2023}
-      {Hudson River Trading}{New York, NY}
-      \resumeItemListStart
-        \resumeItem{Design modern C++ multi-threaded, high-performance, networked, timing-accurate market-simulation tools }
-        \resumeItem{Extend proprietary C++ exception-handling framework, featured \href{https://www.hudsonrivertrading.com/hrtbeat/intern-spotlight-2023-software-engineering/}{\underline{here}}, with improved stack-tracing capabilities}
-      \resumeItemListEnd
-
-    % INTEL
-    \resumeSubheading
-      {FPGA Engineer Intern}{May 2022 -- May 2023}
-      {Intel}{Toronto, ON}
-      \resumeItemListStart
-        \resumeItem{Optimized next-generation FPGA routing architecture improving simulations results in VPR and Quartus }
-        \resumeItem{Developed high-performance C++ graph tools to operate on FPGA routing architecture representations }
-        \resumeItem{Developed Python tool for automated complex data visualization, reducing analysis time for experiments }
-    \resumeItemListEnd
-    
-    % Teaching Assistant
-    \resumeSubheading
-      {Teaching Assistant}{Sept 2021 -- April 2024}
-      {University Of Toronto}{Toronto, ON}
-      \resumeItemListStart
-        \resumeItem{\emph{Operating Systems}: Concurrency, synchronization, deadlock, CPU scheduling, memory management, file systems}
-        \resumeItem{\emph{Computer Organization}: ARM v7 assembly for Cortex A9, Verilog soft-core CPUs, embedded programming }
-        \resumeItem{\emph{Programming Fundamentals}: C++ language, object-oriented programming, data structures, and complexity }
-        \resumeItem{\emph{Software Comm \& Design}: Supervised groups of students in competitive design project course in Modern C++ }
-    \resumeItemListEnd
-    
-    % Rocscience
-    \resumeSubheading
-      {Software Engineering Intern}{May 2021 -- August 2021}
-      {Rocscience}{Toronto, ON}
-      \resumeItemListStart
-        \resumeItem{Redesigned CPillar, a \$995/license C++ geological analysis software, enabling the first major update in years  }
-        %\resumeItem{Prototyped unsupervised ML techniques to extract material types from imagery for Rocfall2 and Rocfall3}
-    \resumeItemListEnd
-    
-    % Academic Researcher
-    \resumeSubheading
-      {ML/AI Research Intern}{May 2020 -- August 2020}
-      {University Of Toronto -- iQua Research Group}{Toronto, ON}
-      \resumeItemListStart
-        \resumeItem{Developed advanced reinforcement learning models using PyTorch, applied to congestion control, edge computing, and network-adaptive coding, resulting in the publication of two conference research papers }
-    \resumeItemListEnd
-  \resumeSubHeadingListEnd
  
-%-----------PROGRAMMING SKILLS-----------
- \section{Technical Skills}
-  \begin{itemize}[leftmargin=0.15in, label={}]
-     \small{\item{
-      \textbf{Languages}{: Modern C++, C, Python, System-Verilog, Java, ARM v7 Assembly, Matlab} \\
-%      \textbf{Focus Areas}{: High Frequency Trading, Computer Architecture, Software Engineering, FPGA, Machine Learning} \\
-      \textbf{Software Courses}{: Algorithms \& Data Structures, Operating Systems, Machine Learning, Compilers, Security} \\
-      \textbf{Hardware Courses}{: Computer Architecture, FPGA Architecture, Computer Organization, Digital Electronics} \\
-      \textbf{Math Courses}{: Multivariate Calculus, Probability, Linear Algebra, Control Theory, Complex Analysis, Economics } \\
-     }}
-  \end{itemize}
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \small{\item{
+    \textbf{Languages \& Tools}: System Verilog, Modern C++, C, Python, Vivado, Quartus, Java, Assembly \\
+    \textbf{Systems \& Concepts}: Low-latency, concurrency, FPGA design, CPU design, embedded programming \\
+    \textbf{Algorithms \& Math}: Data structures, linear algebra, probability, control theory, multivariate calculus, ML/AI \\
+  }}
+\end{itemize}
+
 
  %-----------PUBLICATIONS-----------
 \section{Publications}
-  \resumeSubHeadingListStart
-    \resumeSubheading
-      {\parbox[t]{12cm}{Multi-Agent Deep Reinforcement Learning for Cooperative Edge Caching via Hybrid Communication}}{IEEE ICC-SAC 2023}
-      {Fei Wang, Salma Emara, Isidor Kaplan, Baochun Li, Timothy Zeyl}{}
-    \resumeSubheading
-      {Ivory: Learning Network Adaptive Streaming Codes}{IEEE IWQoS 2022}
-      {Salma Emara, Fei Wang, Isidor Kaplan, Baochun Li}{}
-    \resumeSubheading
-      {\parbox[t]{13cm}{Hybrid Algorithm Based on Machine Learning and Deep Learning to Identify Ceramic Insulators and Detect Physical Damages}}{IEEE CEIDP 2021}
-      {Youssef El Haj, Ruth Milman, Isidor Kaplan, Ali Ashasi}{}
-  \resumeSubHeadingListEnd
+\begin{itemize}[leftmargin=0.15in, label={}]
+  \item
+    {\small
+    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} p{15cm} r}
+      \href{https://iqua.ece.toronto.edu/papers/feiwang-icc23.pdf}{\footnotesize \faChain}\;\textbf{Multi-Agent Deep Reinforcement Learning for Cooperative Edge Caching} & \textit{IEEE ICC-SAC 2023} \\
+      \href{https://iqua.ece.toronto.edu/papers/semara-iwqos22.pdf}{\footnotesize \faChain}\;\textbf{Ivory: Learning Network Adaptive Streaming Codes} & \textit{IEEE IWQoS 2022} \\
+      \href{https://ieeexplore.ieee.org/document/9705342}{\footnotesize \faChain}\;\textbf{Deep Learning to Identify Ceramic Insulators and Detect Physical Damages} & \textit{IEEE CEIDP 2021} \\
+    \end{tabular*}
+    }
+\end{itemize}
+
+
 \end{document}
