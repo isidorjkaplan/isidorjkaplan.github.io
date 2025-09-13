@@ -17,6 +17,7 @@
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
 \usepackage{fancyhdr}
+\usepackage{changepage}
 \usepackage[english]{babel}
 \usepackage{fontawesome}
 \usepackage{tabularx}
@@ -171,20 +172,31 @@
     \resumeItemListEnd
   \resumeSubHeadingListEnd
   
-  %-----------EDUCATION-----------
+%-----------EDUCATION-----------
 \section{Education}
   \resumeSubHeadingListStart
     \resumeSubheading
       {University Of Toronto}{Sept 2019 -- June 2024}
-      { B.A.Sc in Computer Engineering}{Toronto, ON} 
+      {B.A.Sc in Computer Engineering}{Toronto, ON} 
       \resumeItemListStart
         \resumeItem{Obtained \emph{4.0/4.0} Cumulative GPA and \emph{95.3\%} Cumulative Average}
-        \resumeItem{Awarded the \emph{Adel S. Sedra Gold Medal} for highest grades in Computer Engineering, Class of 2024}
+        \resumeItem{Awarded \emph{Adel S. Sedra Gold Medal} for highest grades in Computer Engineering, Class of 2024}
         \resumeItem{Awarded Annual \emph{Top Student Award} from Dept of Electrical and Computer Engineering (2020-21 and 2021-22)}
         \resumeItem{Awarded Charles Edwin Trim (2022), BFMI Sesquicentennial Trust (2021), and In-Course (2020) \emph{Scholarships}}
-        %\resumeItem{Selected for prestigious First-Year Summer \emph{Fellowship} (2020)}
       \resumeItemListEnd
   \resumeSubHeadingListEnd
+{\small
+  \hspace{0.4cm}\textbf{Academic Publications:} \\[-0.1cm]
+  \begin{adjustwidth}{0.8cm}{}
+  \begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}} p{14.8cm} r}
+    \href{https://iqua.ece.toronto.edu/papers/feiwang-icc23.pdf}{\footnotesize \faChain} Multi-Agent Deep Reinforcement Learning for Cooperative Edge Caching & IEEE ICC-SAC 2023 \\
+    \href{https://iqua.ece.toronto.edu/papers/semara-iwqos22.pdf}{\footnotesize \faChain} Ivory: Learning Network Adaptive Streaming Codes & IEEE IWQoS 2022 \\
+    \href{https://ieeexplore.ieee.org/document/9705342}{\footnotesize \faChain} Deep Learning to Identify Ceramic Insulators and Detect Physical Damages & IEEE CEIDP 2021 \\
+  \end{tabular*}
+\end{adjustwidth}
+}
+      }
+
  
 %-----------TECHNICAL SKILLS-----------
 \section{Technical Skills}
@@ -195,20 +207,5 @@
     \textbf{Algorithms \& Math}: Data structures, linear algebra, probability, control theory, multivariate calculus, ML/AI \\
   }}
 \end{itemize}
-
-
- %-----------PUBLICATIONS-----------
-\section{Publications}
-\begin{itemize}[leftmargin=0.15in, label={}]
-  \item
-    {\small
-    \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} p{15cm} r}
-      \href{https://iqua.ece.toronto.edu/papers/feiwang-icc23.pdf}{\footnotesize \faChain}\;\textbf{Multi-Agent Deep Reinforcement Learning for Cooperative Edge Caching} & \textit{IEEE ICC-SAC 2023} \\
-      \href{https://iqua.ece.toronto.edu/papers/semara-iwqos22.pdf}{\footnotesize \faChain}\;\textbf{Ivory: Learning Network Adaptive Streaming Codes} & \textit{IEEE IWQoS 2022} \\
-      \href{https://ieeexplore.ieee.org/document/9705342}{\footnotesize \faChain}\;\textbf{Deep Learning to Identify Ceramic Insulators and Detect Physical Damages} & \textit{IEEE CEIDP 2021} \\
-    \end{tabular*}
-    }
-\end{itemize}
-
 
 \end{document}
